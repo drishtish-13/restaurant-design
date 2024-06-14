@@ -1,0 +1,604 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Complete food website</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <a href="#" class="logo"><i class="fas-fa-utensils"></i>resto.</a>
+        <nav class="navbar">
+            <a class="active" href="#home">home</a>
+            <a href="#dishes">dishes</a>
+            <a href="#about">about</a>
+            <a href="#menu">menu</a>
+            <a href="#review">review</a>
+            <a href="#order">order</a>
+
+        </nav>
+        <div class="icons">
+            <i class="fas fa-menu-bars" id="menu-bars"></i>
+            <i class="fas fa-search" id="search-icon"></i>
+            <a href="" class="fas fa-heart"></a>
+            <a href="" class="fas fa-shopping-cart"></a>
+        </div>
+    </header>
+    <form action="" id="search-form">
+        <input type="search" placeholder="search here..." name="" id="search-box">
+        <label for="search-box" class="fas fa-search"></label>
+        <i class="fas fa-times" id="close"></i>
+    </form>
+    <section class="home" id="home">
+        <div class="swiper home-slider">
+            <div class="swiper-wrapper wrapper">
+                <div class="swiper-slide slide">
+                    <div class="content">
+                        <div class="image">
+                            <img src="images/chocolate-cake-with-chocolate-sprinkles.jpg" alt="">
+                        </div>
+                        <div class="content-text">
+                            <span>our special dishes</span>
+                            <h3>spicy noodles</h3>
+                            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Consequatur alias adipisci pariatur veniam at quis iusto magni hic magnam, incidunt cum ab laudantium enim necessitatibus doloremque vel error maxime fuga.</p>
+                            <a href="#" class="btn">order now</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide slide">
+                    <div class="content">
+                        <div class="image">
+                            <img src="images/chocolate-cake-with-chocolate-sprinkles.jpg" alt="">
+                        </div>
+                        <div class="content-text">
+                            <span>our special dishes</span>
+                            <h3>fries</h3>
+                            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Consequatur alias adipisci pariatur veniam at quis iusto magni hic magnam, incidunt cum ab laudantium enim necessitatibus doloremque vel error maxime fuga.</p>
+                            <a href="#" class="btn">order now</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide slide">
+                    <div class="content">
+                        <div class="image">
+                            <img src="images/chocolate-cake-with-chocolate-sprinkles.jpg" alt="">
+                        </div>
+                        <div class="content-text">
+                            <span>our special dishes</span>
+                            <h3>cheese burger</h3>
+                            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Consequatur alias adipisci pariatur veniam at quis iusto magni hic magnam, incidunt cum ab laudantium enim necessitatibus doloremque vel error maxime fuga.</p>
+                            <a href="#" class="btn">order now</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- <div class="swiper-slide slide">
+                    <div class="content">
+                        <span>our special dishes</span>
+                        <h3>shahi paneer</h3>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Consequatur alias adipisci pariatur veniam at quis iusto magni hic magnam, incidunt cum ab laudantium enim necessitatibus doloremque vel error maxime fuga.</p>
+                        <a href="#" class="btn">order now</a>
+                        <div class="image">
+                            <img src="images/vertical-shot-traditional-indian-paneer-butter-masala-cheese-cottage-curry-black-surface.jpg" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide slide">
+                    <div class="content">
+                        <span>our special dishes</span>
+                        <h3>momos</h3>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Consequatur alias adipisci pariatur veniam at quis iusto magni hic magnam, incidunt cum ab laudantium enim necessitatibus doloremque vel error maxime fuga.</p>
+                        <a href="#" class="btn">order now</a>
+                        <div class="image">
+                            <img src="images/khinkali-served-with-greens-sauce.jpg" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide slide">
+                    <div class="content">
+                        <span>our special dishes</span>
+                        <h3>pizza</h3>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Consequatur alias adipisci pariatur veniam at quis iusto magni hic magnam, incidunt cum ab laudantium enim necessitatibus doloremque vel error maxime fuga.</p>
+                        <a href="#" class="btn">order now</a>
+                        <div class="image">
+                            <img src="images/pizza-pizza-filled-with-tomatoes-salami-olives.jpg" alt="">
+                        </div>
+                    </div>
+                </div> -->
+            </div>
+            <div class="swiper-pagination"></div>
+        </div>
+    </section>
+    <section class="dishes" id="dishes">
+       <h3 class="sub-heading">our dishes</h3>
+       <h1 class="heading">popular dishes</h1>
+       <div class="box-container">
+        <div class="box">
+            <a href="#" class="fas fa-heart"></a>
+            <a href="#" class="fas fa-eye"></a>
+            <img src="images/chocolate-cake-with-chocolate-sprinkles.jpg" alt="">
+            <h3>tasty food</h3>
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+            </div>
+            <span>$15.99</span>
+            <a href="#" class="btn">add to cart</a>
+
+        </div>
+        <div class="box">
+            <a href="#" class="fas fa-heart"></a>
+            <a href="#" class="fas fa-eye"></a>
+            <img src="images/chocolate-cake-with-chocolate-sprinkles.jpg" alt="">
+            <h3>tasty food</h3>
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+            </div>
+            <span>$15.99</span>
+            <a href="#" class="btn">add to cart</a>
+            
+        </div>
+        <div class="box">
+            <a href="#" class="fas fa-heart"></a>
+            <a href="#" class="fas fa-eye"></a>
+            <img src="images/chocolate-cake-with-chocolate-sprinkles.jpg" alt="">
+            <h3>tasty food</h3>
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+            </div>
+            <span>$15.99</span>
+            <a href="#" class="btn">add to cart</a>
+            
+        </div>
+        <div class="box">
+            <a href="#" class="fas fa-heart"></a>
+            <a href="#" class="fas fa-eye"></a>
+            <img src="images/chocolate-cake-with-chocolate-sprinkles.jpg" alt="">
+            <h3>tasty food</h3>
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+            </div>
+            <span>$15.99</span>
+            <a href="#" class="btn">add to cart</a>
+            
+        </div>
+        <div class="box">
+            <a href="#" class="fas fa-heart"></a>
+            <a href="#" class="fas fa-eye"></a>
+            <img src="images/chocolate-cake-with-chocolate-sprinkles.jpg" alt="">
+            <h3>tasty food</h3>
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+            </div>
+            <span>$15.99</span>
+            <a href="#" class="btn">add to cart</a>
+            
+        </div>
+        <div class="box">
+            <a href="#" class="fas fa-heart"></a>
+            <a href="#" class="fas fa-eye"></a>
+            <img src="images/chocolate-cake-with-chocolate-sprinkles.jpg" alt="">
+            <h3>tasty food</h3>
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+            </div>
+            <span>$15.99</span>
+            <a href="#" class="btn">add to cart</a>
+            
+        </div>
+       </div> 
+    </section>
+    <section class="about" id="about">
+        <h3 class="sub-heading">about us</h3>
+        <h1 class="heading">why choose us?</h1>
+        <div class="row">
+            <div class="image">
+                <img src="images/chocolate-cake-with-chocolate-sprinkles.jpg" alt="">
+            </div>
+            <div class="content">
+                <h3>best food in the country</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto earum accusamus harum voluptates exercitationem, facilis ab cumque commodi quos maiores, tempore ut minus. Iure voluptas aspernatur fugiat similique, provident eaque.</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit perferendis, et dolore enim laboriosam, quasi illo eaque fugiat excepturi itaque dolores non maxime deleniti praesentium ipsa adipisci aliquid ut earum.</p>
+                <div class="icons-container">
+                    <div class="icons">
+                        <i class="fas fa-shipping-fast"></i>
+                        <span>free delivery</span>
+                    </div>
+                    <div class="icons">
+                        <i class="fas fa-dollar-sign"></i>
+                        <span>easy payments</span>
+                    </div>
+                    <div class="icons">
+                        <i class="fas fa-headset"></i>
+                        <span>24/7 service</span>
+                    </div>
+                </div>
+                <a href="#" class="btn">learn more</a>
+            </div>
+        </div>
+    </section>
+    <section class="menu" id="menu">
+        <h3 class="sub-heading">our menu</h3>
+        <h1 class="heading">today's speciality</h1>
+        <div class="box-container">
+            <div class="box">
+                <div class="image">
+                    <img src="images/chocolate-cake-with-chocolate-sprinkles.jpg" alt="">
+                    <a href="#" class="fas fa-heart"></a>
+                </div>
+                <div class="content">
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <h3>delicious food</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet aliquid autem facilis, quam atque consectetur necessitatibus animi quis consequatur sequi! Maiores adipisci labore quas explicabo aliquid? Ea omnis facere corrupti.</p>
+                    <a href="#" class="btn">add to cart</a>
+                    <span class="price">$12.9</span>
+                </div>
+            </div>
+            <div class="box">
+                <div class="image">
+                    <img src="images/chocolate-cake-with-chocolate-sprinkles.jpg" alt="">
+                    <a href="#" class="fas fa-heart"></a>
+                </div>
+                <div class="content">
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <h3>delicious food</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet aliquid autem facilis, quam atque consectetur necessitatibus animi quis consequatur sequi! Maiores adipisci labore quas explicabo aliquid? Ea omnis facere corrupti.</p>
+                    <a href="#" class="btn">add to cart</a>
+                    <span class="price">$12.9</span>
+                </div>
+            </div>
+            <div class="box">
+                <div class="image">
+                    <img src="images/chocolate-cake-with-chocolate-sprinkles.jpg" alt="">
+                    <a href="#" class="fas fa-heart"></a>
+                </div>
+                <div class="content">
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <h3>delicious food</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet aliquid autem facilis, quam atque consectetur necessitatibus animi quis consequatur sequi! Maiores adipisci labore quas explicabo aliquid? Ea omnis facere corrupti.</p>
+                    <a href="#" class="btn">add to cart</a>
+                    <span class="price">$12.9</span>
+                </div>
+            </div>
+            <div class="box">
+                <div class="image">
+                    <img src="images/chocolate-cake-with-chocolate-sprinkles.jpg" alt="">
+                    <a href="#" class="fas fa-heart"></a>
+                </div>
+                <div class="content">
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <h3>delicious food</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet aliquid autem facilis, quam atque consectetur necessitatibus animi quis consequatur sequi! Maiores adipisci labore quas explicabo aliquid? Ea omnis facere corrupti.</p>
+                    <a href="#" class="btn">add to cart</a>
+                    <span class="price">$12.9</span>
+                </div>
+            </div>
+            <div class="box">
+                <div class="image">
+                    <img src="images/chocolate-cake-with-chocolate-sprinkles.jpg" alt="">
+                    <a href="#" class="fas fa-heart"></a>
+                </div>
+                <div class="content">
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <h3>delicious food</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet aliquid autem facilis, quam atque consectetur necessitatibus animi quis consequatur sequi! Maiores adipisci labore quas explicabo aliquid? Ea omnis facere corrupti.</p>
+                    <a href="#" class="btn">add to cart</a>
+                    <span class="price">$12.9</span>
+                </div>
+            </div>
+            <div class="box">
+                <div class="image">
+                    <img src="images/chocolate-cake-with-chocolate-sprinkles.jpg" alt="">
+                    <a href="#" class="fas fa-heart"></a>
+                </div>
+                <div class="content">
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <h3>delicious food</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet aliquid autem facilis, quam atque consectetur necessitatibus animi quis consequatur sequi! Maiores adipisci labore quas explicabo aliquid? Ea omnis facere corrupti.</p>
+                    <a href="#" class="btn">add to cart</a>
+                    <span class="price">$12.9</span>
+                </div>
+            </div>
+            <div class="box">
+                <div class="image">
+                    <img src="images/chocolate-cake-with-chocolate-sprinkles.jpg" alt="">
+                    <a href="#" class="fas fa-heart"></a>
+                </div>
+                <div class="content">
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <h3>delicious food</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet aliquid autem facilis, quam atque consectetur necessitatibus animi quis consequatur sequi! Maiores adipisci labore quas explicabo aliquid? Ea omnis facere corrupti.</p>
+                    <a href="#" class="btn">add to cart</a>
+                    <span class="price">$12.9</span>
+                </div>
+            </div>
+            <div class="box">
+                <div class="image">
+                    <img src="images/chocolate-cake-with-chocolate-sprinkles.jpg" alt="">
+                    <a href="#" class="fas fa-heart"></a>
+                </div>
+                <div class="content">
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <h3>delicious food</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet aliquid autem facilis, quam atque consectetur necessitatibus animi quis consequatur sequi! Maiores adipisci labore quas explicabo aliquid? Ea omnis facere corrupti.</p>
+                    <a href="#" class="btn">add to cart</a>
+                    <span class="price">$12.9</span>
+                </div>
+            </div>
+            <div class="box">
+                <div class="image">
+                    <img src="images/chocolate-cake-with-chocolate-sprinkles.jpg" alt="">
+                    <a href="#" class="fas fa-heart"></a>
+                </div>
+                <div class="content">
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <h3>delicious food</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet aliquid autem facilis, quam atque consectetur necessitatibus animi quis consequatur sequi! Maiores adipisci labore quas explicabo aliquid? Ea omnis facere corrupti.</p>
+                    <a href="#" class="btn">add to cart</a>
+                    <span class="price">$12.9</span>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="review" id="review">
+        <h3 class="sub-heading">customer's service</h3>
+        <h1 class="heading">what they say</h1>
+        <div class="swiper-container review-slider">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide slide">
+                    <i class="fas fa-qoute-right"></i>
+                    <div class="user">
+                        <img src="images/chocolate-cake-with-chocolate-sprinkles.jpg" alt="">
+                        <div class="user-info">
+                            <h3>john deo</h3>
+                            <div class="stars">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star-half-alt"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Possimus dolores, aliquam corporis rem ex explicabo odio labore magni, quisquam, omnis odit aspernatur sed ea iste minus autem minima corrupti maiores?</p>
+                </div>
+                <div class="swiper-slide slide">
+                    <i class="fas fa-qoute-right"></i>
+                    <div class="user">
+                        <img src="images/chocolate-cake-with-chocolate-sprinkles.jpg" alt="">
+                        <div class="user-info">
+                            <h3>john deo</h3>
+                            <div class="stars">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star-half-alt"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Possimus dolores, aliquam corporis rem ex explicabo odio labore magni, quisquam, omnis odit aspernatur sed ea iste minus autem minima corrupti maiores?</p>
+                </div>
+                <div class="swiper-slide slide">
+                    <i class="fas fa-qoute-right"></i>
+                    <div class="user">
+                        <img src="images/chocolate-cake-with-chocolate-sprinkles.jpg" alt="">
+                        <div class="user-info">
+                            <h3>john deo</h3>
+                            <div class="stars">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star-half-alt"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Possimus dolores, aliquam corporis rem ex explicabo odio labore magni, quisquam, omnis odit aspernatur sed ea iste minus autem minima corrupti maiores?</p>
+                </div>
+                <div class="swiper-slide slide">
+                    <i class="fas fa-qoute-right"></i>
+                    <div class="user">
+                        <img src="images/chocolate-cake-with-chocolate-sprinkles.jpg" alt="">
+                        <div class="user-info">
+                            <h3>john deo</h3>
+                            <div class="stars">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star-half-alt"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Possimus dolores, aliquam corporis rem ex explicabo odio labore magni, quisquam, omnis odit aspernatur sed ea iste minus autem minima corrupti maiores?</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="order" id="order">
+        <h3 class="sub-heading">order now</h3>
+        <h1 class="heading">free and fast</h1>
+        <form action="">
+            <div class="inputbox">
+                <div class="input">
+                    <span>your name</span>
+                    <input type="number" placeholder="enter your number">
+                </div>
+                <div class="input">
+                    <span>your name</span>
+                    <input type="number" placeholder="enter your number">
+                </div>
+            </div>
+            <div class="inputbox">
+                <div class="input">
+                    <span>your order</span>
+                    <input type="number" placeholder="enter food name">
+                </div>
+                <div class="input">
+                    <span>additional food</span>
+                    <input type="number" placeholder="extra with food">
+                </div>
+            </div>
+            <div class="inputbox">
+                <div class="input">
+                    <span>your name</span>
+                    <input type="text" placeholder="enter your number">
+                </div>
+                <div class="input">
+                    <span>your name</span>
+                    <input type="test" placeholder="enter your number">
+                </div>
+            </div>
+            <div class="inputbox">
+                <div class="input">
+                    <span>how much</span>
+                    <input type="number" placeholder="how many orders">
+                </div>
+                <div class="input">
+                    <span>date and time</span>
+                    <input type="datetime-local">
+                </div>
+            </div>
+            <div class="inputbox">
+                <div class="input">
+                    <span>your addess</span>
+                    <textarea name="" placeholder="enter your address" id="" cols="30" rows="10"></textarea>
+                </div>
+                <div class="input">
+                    <span>your message</span>
+                    <textarea name="" placeholder="enter your message" id="" cols="30" rows="10"></textarea>
+                </div>
+            </div>
+            <input type="submit" value="order now" class="btn">
+        </form>
+    </section>
+    <section class="footer">
+        <div class="box-container">
+            <div class="box">
+                <h3>locations</h3>
+                <a href="#">india</a>
+                <a href="#">russia</a>
+                <a href="#">usa</a>
+                <a href="#">japan</a>
+                <a href="#">france</a>
+            </div>
+            <div class="box">
+                <h3>quick links</h3>
+                <a href="#">home</a>
+                <a href="#">dishes</a>
+                <a href="#">about</a>
+                <a href="#">menu</a>
+                <a href="#">order</a>
+            </div>
+            <div class="box">
+                <h3>contact info</h3>
+                <a href="#">+91 9458628445</a>
+                <a href="#">+91 7832483987</a>
+                <a href="#">xyz@gmail.com</a>
+                <a href="#">abc@gmail.com</a>
+                <a href="#">mumbai,india-400104</a>
+                
+            </div>
+            <div class="box">
+                <h3>follow us</h3>
+                <a href="#">instagram</a>
+                <a href="#">facebook</a>
+                <a href="#">twitter</a>
+                <a href="#">linkedin</a>
+               
+            </div>
+        </div>
+        <div class="credit">copyright @2021 by <span>ms. drishti</span>
+
+        </div>
+    </section>
+    <!--<div class="loader-container">
+        <img src="images/chocolate-cake-with-chocolate-sprinkles.jpg" alt="">
+    </div>-->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+   <script src="script.js"></script>
+</body>
+</html>
